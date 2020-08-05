@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>
+            Estrutura HTML
+        </title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="estilo-formulario.css" />
+    </head>
+
+    <body>
+        <form action="" method="GET">
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" placeholder="digite seu nome" name="nome" />
+            <label for="opcao">Voce Gostou?</label>
+            <input id="opcao" type="radio" name="opcao" value="sim" checked="checked">Sim
+            <input id="opcao" type="radio" name="opcao" value="nao">Não
+            <label for="linguagem">Voce quer aprender mais sobre:</label>
+            <input id="linguagem"type="checkbox" name="html"/>HTML
+            <input id="linguagem"type="checkbox" name="css"/>CSS
+            <textarea name="msg"></textarea>
+            <input type="submit" value="enviar"/>
+        </form>
+    </body>
+</html>
